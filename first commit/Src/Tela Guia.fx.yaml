@@ -1,0 +1,82 @@
+"'Tela Guia' As screen":
+
+    Label1 As label:
+        Height: =65
+        Size: =21
+        Text: |-
+            ="#2d3436"
+        Width: =245
+        X: =40
+        Y: =46
+        ZIndex: =1
+
+    Cinza900 As rectangle:
+        Fill: =ColorValue(Label1.Text)
+        X: =320
+        Y: =46
+        ZIndex: =2
+
+    Label1_1 As label:
+        Height: =65
+        Size: =21
+        Text: |-
+            ="#636e72"
+        Width: =245
+        X: =40
+        Y: =208
+        ZIndex: =3
+
+    Cinza800 As rectangle:
+        Fill: =ColorValue(Label1_1.Text)
+        X: =320
+        Y: =208
+        ZIndex: =4
+
+    Label1_2 As label:
+        Height: =65
+        Size: =21
+        Text: |-
+            ="#dfe6e9"
+        Width: =245
+        X: =40
+        Y: =368
+        ZIndex: =5
+
+    Cinza400 As rectangle:
+        Fill: =ColorValue(Label1_2.Text)
+        X: =320
+        Y: =368
+        ZIndex: =6
+
+    Label1_3 As label:
+        Height: =65
+        Size: =21
+        Text: |-
+            ="#d63031"
+        Width: =245
+        X: =40
+        Y: =543
+        ZIndex: =7
+
+    Vermelho500 As rectangle:
+        Fill: =ColorValue(Label1_3.Text)
+        X: =320
+        Y: =543
+        ZIndex: =8
+
+    Label1_4 As label:
+        Height: =65
+        Size: =21
+        Text: |-
+            ="#55efc4"
+        Width: =245
+        X: =40
+        Y: =693
+        ZIndex: =9
+
+    Verde400 As rectangle:
+        Fill: =ColorValue(Label1_4.Text)
+        X: =320
+        Y: =693
+        ZIndex: =10
+

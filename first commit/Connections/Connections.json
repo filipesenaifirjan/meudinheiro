@@ -1,0 +1,32 @@
+{
+  "e0965c38-3617-4754-a557-c205fec5d906": {
+    "appActions": [
+      "providers/PowerPlatform.Governance/Operations/Read",
+      "providers/PowerPlatform.Governance/Operations/Write",
+      "providers/PowerPlatform.Governance/Operations/Delete"
+    ],
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "SharePoint",
+      "iconUri": "https://connectoricons-prod.azureedge.net/u/jayawan/releases/v1.0.1697/1.0.1697.3786/sharepointonline/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {
+      "https://t2mlabtst.sharepoint.com/sites/Suporte2": {
+        "dataSources": {
+          "Meu_dinheiro": {
+            "tableName": "df448c9d-c588-492a-a233-b673d19b6f5a"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "Meu_dinheiro"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "e0965c38-3617-4754-a557-c205fec5d906"
+  }
+}
